@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+      table,th,td{
+        border: 1px solid blue;
+border-collapse: collapse;
+      }
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table style="">
+<tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Edad</th>
+</tr>
+<tr>
+    <td>Jose</td>
+    <td>Gomez</td>
+    <td>77</td>
+</tr>
+<tr>
+    <td>Pedro</td>
+    <td>Garcia</td>
+    <td>33</td>
+</tr>
+    </table>
+    <h1>Caption y RowSpan</h1>
+    <table>
+        <caption></caption>
+    <tr>
+    <th>Nombre</th>
+    <th colspan="2">Telefono</th>
+</tr>
+<tr>
+    <td>Manolo</td>
+    <td>5555555556</td>
+    <td>55555535</td>
+</tr>
+
+    </table>
+    <h1>RowSpan</h1>
+    
+    <table>
+    <tr>
+    <th>Nombre:</th>
+    <td>Juan </td>
+    </tr>
+  <tr> 
+    <th rowspan="2">Telefono</th>
+   <td>134534513</td>
+  </tr>
+
+  <tr> 
+   <td>134534513</td>
+  </tr>
+
+    </table>
+<h1>Propiedades por columnas </h1>
+<table>
+    <colgroup>
+        <col style="background-color: rgb(255, 0, 0);">
+        <col style="background-color: rgb(255, 238, 0);">
+        <col style="background-color: rgb(255, 0, 0);">
+
+    </colgroup>
+    <tr>
+        <th>ISBM</th>
+        <th>Titulo</th>
+        <th>Precio</th>
+    </tr>
+    <tr>
+        <td>456346</td>
+        <td>Empezando HTML</td>
+        <td>55€</td>
+    </tr>
+    <tr>
+        <td>4456653</td>
+        <td>Intro a css</td>
+        <td>35€</td>
+    </tr>
+        </table>
+</body>
+</html>
